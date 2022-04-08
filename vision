@@ -1,3 +1,6 @@
+from keras.models import Sequential
+from keras.layers import Dense, Activation
+
 model = Sequential()
 # Ajouter des couches au modèle
 model.add(Conv2D(32, kernel_size=(3, 3),
