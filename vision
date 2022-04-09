@@ -1,5 +1,5 @@
 from keras.models import Sequential
-from keras.layers import Dense, Activation
+from keras.layers import Dense, Activation, Conv2D, Flatten
 
 model = Sequential()
 # Ajouter des couches au modèle
